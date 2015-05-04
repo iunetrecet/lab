@@ -11,10 +11,17 @@ header {
     left: 45%; }
 
 .item {
-  width: 23%;
-  margin: 1%; }
+  width: 24%;
+  margin: 0.5%; }
   .item.w2 {
-    width: 48%; }
+    width: 49%; }
+
+main {
+  padding: 0 5%; }
+  main div {
+    font-size: 0; }
+    main div img {
+      width: 100%; }
 
 body {
   margin: 0; }

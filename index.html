@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="images/favicon.ico" />
     <link rel="stylesheet" type="text/css"
       href="css/main.css" />
-    <script src="/path/to/masonry.pkgd.min.js"></script>
+    <script src="js/masonry.pkgd.js"></script>
   </head>
 
   <body>
@@ -18,12 +18,20 @@
         <h1><img src="images/iuneslab.svg" alt="Iune's lab"></h1>
       </hgroup>
     </header>
-    <content>
-      <ul>
-        <li class="item"><a href=""><img src=""><h2></h2></li>
-        <li class="item w2"><a href=""><img src=""><h2></h2></li>
-      </ul>
-    </content>
+    <main>
+      <div id="container"class="js-masonry"
+  data-masonry-options='{ "itemSelector": ".item" }'>
+        <div class="item"><a href=""><img src="images/prueba1.jpg"><h2></h2></div>
+        <div class="item"><a href=""><img src="images/prueba2.jpg"><h2></h2></div>
+        <div class="item w2"><a href=""><img src="images/prueba3.jpg"><h2></h2></div>
+        <div class="item"><a href=""><img src="images/prueba4.jpg"><h2></h2></div>
+        <div class="item"><a href=""><img src="images/prueba5.jpg"><h2></h2></div>
+        <div class="item w2"><a href=""><img src="images/prueba6.jpg"><h2></h2></div>
+        <div class="item"><a href=""><img src="images/prueba8.jpg"><h2></h2></div>
+        <div class="item w2"><a href=""><img src="images/prueba7.jpg"><h2></h2></div>
+        <div class="item"><a href=""><img src="images/prueba9.jpg"><h2></h2></div>
+      </div>
+    </main>
     <footer>
       <p id="license"></p>
     </footer>

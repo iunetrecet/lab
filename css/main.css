@@ -3,6 +3,7 @@ header {
   height: 100vh;
   background-image: url("../images/lab.svg");
   background-size: cover;
+  background-position: bottom;
   background-repeat: no-repeat; }
   header h1 {
     margin-top: 0;
@@ -17,11 +18,32 @@ header {
     width: 49%; }
 
 main {
-  padding: 0 5%; }
-  main div {
-    font-size: 0; }
-    main div img {
-      width: 100%; }
+  background: #1a1a1a;
+  padding: 0.5%; }
+  main ul {
+    padding: 0;
+    margin: 0; }
+    main ul li {
+      font-size: 0;
+      display: table-cell;
+      position: relative; }
+      main ul li img {
+        width: 100%; }
+      main ul li h2 {
+        color: white;
+        font-size: 2rem;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 80%;
+        padding: 0 10%;
+        text-align: center;
+        display: none;
+        font-family: Raw; }
+    main ul li.project:hover img {
+      opacity: 0.2; }
+    main ul li.project:hover h2 {
+      display: block; }
 
 body {
   margin: 0; }

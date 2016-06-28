@@ -4,24 +4,34 @@ header {
   font-size: 0; }
   header hgroup, #headerRight {
     display: inline-block;
-    width: 50%;
-    vertical-align: bottom;
+    vertical-align: top;
+  }
+  header hgroup {
+    width: 35%; }
+  @media screen and (max-width: 600px) {
+    header hgroup {
+      width: 100%; }
   }
   header h1 img {
-    width: 70%;
+    width: 100%;
     padding: 0 5% 5% 5%;
   }
   #headerRight {
     font-size: 1rem;
     text-align: right;
     padding: 2%;
+    width: 65%;
+  }
+  @media screen and (max-width: 600px) {
+    #headerRight {
+      width: 100%; }
+  }
+  #headerRight img {
+    max-width: 100%;
   }
   header #social {
     width: 100%;
     margin: 0;
-    position: absolute;
-    top: 0;
-    right: 0;
   }
     header li {
       display: inline-block;
@@ -35,6 +45,11 @@ header {
     header h2 {
       font-size: 3rem;
     }
+    @media screen and (max-width: 1000px) {
+      header h2 {
+        font-size: 2rem;
+      }
+    }
 
 
 
@@ -43,6 +58,20 @@ header {
   margin: 0.5%; }
   .item.w2 {
     width: 49%; }
+  @media screen and (max-width: 1000px) {
+    .item {
+      width: 32%;
+      margin: 0.5%; }
+    .item.w2 {
+      width: 99%; }
+  }
+  @media screen and (max-width: 600px) {
+    .item {
+      width: 49%;
+      margin: 0.5%; }
+    .item.w2 {
+      width: 99%; }
+  }
 
 main {
   background: #1a1a1a;

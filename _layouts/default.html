@@ -18,18 +18,22 @@
 
 
   <body>
-    <header>
-      <a href="{{ home.url }}"><img id="logo" alt="iune's lab" src="{{ site.baseurl }}images/iunelab.svg" /></a>
-      <ul id="social">
-        <li><a href="{{ site.author.github }}">github</a></li>
-        <li><a href="{{ site.author.flickr }}">flickr</a></li>
-        <li><a href="mailto:{{ site.author.email }}">email</a></li>
-      </ul>
-    </header>
+    <div id="wrap">
 
-    <main>
-      {{ content }}
-    </main>
+      <header>
+        <h1><a href="{{ home.url }}"><img id="logo" alt="iune's lab" src="{{ site.baseurl }}images/iunelab.svg" /></a></h1>
+        <ul id="social">
+          <li><a href="{{ site.author.github }}">github</a></li>
+          <li><a href="{{ site.author.flickr }}">flickr</a></li>
+          <li><a href="mailto:{{ site.author.email }}">email</a></li>
+        </ul>
+      </header>
+
+      <main>
+        {{ content }}
+      </main>
+
+    </div>
 
     <footer>
       <p>Copy me, remix me</p>

@@ -2,13 +2,15 @@
 layout: default
 ---
 
-<header>
-  <img />
-  <hgroup>
-    <h1></h1>
-    <h2></h2>
-  </hgroup>
-</header>
+<div id="banner">
+  <img src="{{ site.baseurl }}images/experiment.svg" />
+  <div id="bannerText">
+    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</h1>
+    <p>Morbi ipsum enim, accumsan vel pretium eget, tincidunt ultrices nulla.
+      Integer ligula dui, hendrerit vel finibus et, viverra ac diam.
+      Suspendisse in ante porttitor, ornare odio et, sollicitudin est.</p>
+  </div>
+</div>
 
 <ul>
   {% for post in site.posts %}

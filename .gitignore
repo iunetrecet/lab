@@ -2,3 +2,6 @@
 *.map
 kaka
 vendor
+_site
+.bundle/
+.sass-cache/

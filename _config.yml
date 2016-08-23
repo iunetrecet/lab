@@ -1,0 +1,14 @@
+# General
+title: iune's lab
+description: Iune Trecet Obeso lab
+author:
+    name: Iune Trecet Obeso
+    email: contact@iune.info
+    github: iunetrecet
+    flickr: https://flickr.com/photos/iunetrecet/
+timezone: "Europe/Paris"
+
+# Jekyll
+exclude: [".rvmrc", ".rbenv-version", "Rakefile", "vendor"]
+excerpt_separator: "\n"
+markdown: kramdown

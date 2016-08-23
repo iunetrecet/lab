@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" initial-scale="1.0" />
+
+    <title>{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}</title>
+
+    <meta name="description" content="{{ site.description }}" />
+    <meta name="author" content="{{ site.description.author.name }}" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link rel="shortcut icon" href="{{ site.baseurl }}images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}css/main.css" />
+  </head>
+
+
+  <body>
+    <header>
+      <a href="{{ home.url }}"><img id="logo" alt="iune's lab" src="{{ site.baseurl }}images/iunelab.svg" /></a>
+      <ul id="social">
+        <li><a href="{{ site.author.github }}">github</a></li>
+        <li><a href="{{ site.author.flickr }}">flickr</a></li>
+        <li><a href="mailto:{{ site.author.email }}">email</a></li>
+      </ul>
+    </header>
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <p>Copy me, remix me</p>
+      <img id="license" src="{{ site.baseurl }}images/cc-by-sa.svg" alt="cc-by-sa" />
+    </footer>
+  </body>
+</html>

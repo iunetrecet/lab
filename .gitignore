@@ -5,3 +5,4 @@ vendor
 _site
 .bundle/
 .sass-cache/
+images/thumbnails/prueba*

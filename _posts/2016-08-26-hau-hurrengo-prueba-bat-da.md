@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hau hurrengo prueba bat da"
-thumbnail: "prueba3.png"
+thumbnail: "images/thumbnails/prueba3.png"
 category: prueba
 date: 2016-08-24
 ---

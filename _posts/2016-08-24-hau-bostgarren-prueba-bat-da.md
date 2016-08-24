@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hau bostgarren prueba bat da"
-thumbnail: "prueba5.png"
+thumbnail: "images/thumbnails/prueba5.png"
 category: prueba
 date: 2016-08-24
 ---

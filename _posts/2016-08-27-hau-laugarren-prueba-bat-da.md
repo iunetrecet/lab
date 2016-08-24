@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Hau laugarren prueba bat da"
-thumbnail: "prueba.png"
+thumbnail: "images/thumbnails/prueba4.png"
 category: prueba
 date: 2016-08-24
 ---

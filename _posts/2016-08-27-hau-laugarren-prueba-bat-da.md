@@ -4,6 +4,7 @@ title: "Hau laugarren prueba bat da"
 thumbnail: "/images/thumbnails/prueba4.png"
 category: prueba
 date: 2016-08-24
+author: Iune Trecet
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius nibh libero, eget efficitur metus aliquet ac. Proin non massa maximus lectus rutrum bibendum. Mauris metus sem, dictum ut lacus id, ullamcorper rutrum mauris. Fusce sagittis placerat ante. Praesent porta magna eget metus ullamcorper dapibus. Maecenas vel porttitor enim, non aliquet elit. Donec congue velit ligula, eget condimentum nisi gravida in. Duis convallis ultricies tristique. Duis auctor massa nec justo suscipit iaculis. Proin eget ligula tempor, fringilla odio ut, aliquam tortor. Nunc sed tempus turpis, a iaculis neque.
 

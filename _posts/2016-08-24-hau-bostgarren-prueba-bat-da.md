@@ -2,7 +2,7 @@
 layout: post
 title: "Hau bostgarren prueba bat da"
 thumbnail: "images/thumbnails/prueba5.png"
-category: prueba
+category: prueba2
 date: 2016-08-24
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam varius nibh libero, eget efficitur metus aliquet ac. Proin non massa maximus lectus rutrum bibendum. Mauris metus sem, dictum ut lacus id, ullamcorper rutrum mauris. Fusce sagittis placerat ante. Praesent porta magna eget metus ullamcorper dapibus. Maecenas vel porttitor enim, non aliquet elit. Donec congue velit ligula, eget condimentum nisi gravida in. Duis convallis ultricies tristique. Duis auctor massa nec justo suscipit iaculis. Proin eget ligula tempor, fringilla odio ut, aliquam tortor. Nunc sed tempus turpis, a iaculis neque.

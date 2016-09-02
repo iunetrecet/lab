@@ -1,6 +1,5 @@
 <nav>
-  <a href="" class="category prueba">category</a>
-  <a href="" class="category b">category</a>
-  <a href="" class="category c">category</a>
-  <a href="" class="category d">category</a>
+  {% for category in site.categories %}
+  <a href="" class="category {{ category | first }}">{{ category | first }}</a>
+  {% endfor %}
 </nav>

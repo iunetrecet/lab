@@ -1,5 +1,5 @@
 <nav>
   {% for category in site.categories %}
-  <a href="" class="category {{ category | first }}">{{ category | first }}</a>
+  <a data-selector="{{ category | first }}" href="" class="category selector {{ category | first }}">{{ category | first }}</a>
   {% endfor %}
 </nav>

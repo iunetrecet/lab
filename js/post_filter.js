@@ -15,6 +15,7 @@
     selector.onclick = function(event) {
       event.preventDefault();
       var category = selector.getAttribute("data-selector");
+      document.location.hash = "#" + category;
       filterPosts(category);
     }
   })

@@ -18,4 +18,10 @@
       filterPosts(category);
     }
   })
+
+  var anchor = document.location.hash.substring(1);
+  console.log(anchor);
+  if (anchor !== '') {
+    filterPosts(anchor);
+  }
 })();

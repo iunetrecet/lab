@@ -1,11 +1,13 @@
 ---
+title: Telazko konpresa berrerabilgarriak
+date: 2016-09-03 00:00:00 +02:00
+categories:
+- diy
 layout: post
-title: "Telazko konpresa berrerabilgarriak"
-thumbnail: "images/posts/konpresak/konpresak.jpg"
-category: diy
-date: 2016-09-03
+thumbnail: images/posts/konpresak/konpresak.jpg
 author: Iune Trecet
 ---
+
 Lagun batek duela urte asko erakutsi zidan berak egindako konpresa bat, konpresa komertzial kutsakor eta ez osasuntsu
 hoiek alde batera uzteko. Beti _egitekoen zerrendan_ zegoen, udako arratsalde
 tonto honetan, bainatzera joateko gogorik ez eta eskulanen bat egiteko gogoarekin, ama eta biok konpresak egiten
